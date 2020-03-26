@@ -1,1 +1,25 @@
+body{
+    font-family: helvetica;
+}
 
+/*selector is ul
+declaration is font-family: monospace
+property name is font-family
+value is monospace>*/
+ul{
+    font-family: monospace;
+}
+
+li{
+    list-style: circle;
+}
+
+.list{
+    list-style: square;
+}
+
+#date {
+    font-size: 12px;
+    font-style: italic;
+    font-weight: bold;
+}
