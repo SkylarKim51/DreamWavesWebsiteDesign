@@ -1,19 +1,34 @@
 <!DOCTYPE html> <! indicates this is html5 code>
 <html lang="en">
 <head>
+    <title>DreamWaves Music Festival</title>
     <meta charset="UTF-8"> <!important for how computer reads chars>
-    <title>DreamWaves Music Festival</title> <!what will appear at top of browser & in searches>
+    <meta name="viewport" conten="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="main.css">
     <link rel="stylesheet" href="css/bootstrap.min.css"> <!framework> <!links css code, good to keep external>
 </head>
 <body>
-    <h1>DreamWaves Music Festival</h1> <!h1 is heading>
-    <p id="date"></p> <!p is paragraph>
-    <ul> <!unordered list>
-        <li class="list">Edit the head</li> <!li is list item>
-        <li class="list">Edit the body</li>
-        <li> Link to JavaScript</li>
-    </ul> 
-    <noscript>You need to enable JavaScript to view the full site</noscript> <!displays if user has JS deactivated>
+    <nav class="navbar navbar-expand-md"> <!denotes at which point nav bar goes from vertaical to horizontal>
+        <a class="navbar-brand" href="#">Logo</a> <!used for branding, put logo here>
+        <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
+            <span class="navbar-toggler-icon"></span> <!creates the icon users click on to open menu>
+        </button>
+        <div class="collapse navbar-collapse" id="main-navigation">
+            <ul class="navbar-nav"> <!holds menu items>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <header class="page-header header container-fluid"></header>
+    <script src="app.js"></script>
     <script src="jquery-3.4.1.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>

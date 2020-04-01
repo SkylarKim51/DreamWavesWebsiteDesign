@@ -1,21 +1,29 @@
 body{
-    font-family: helvetica;
+    padding:0;
+    margin:0;
+    background: #00BFFF;
 }
 
-/*selector is ul
-declaration is font-family: monospace
-property name is font-family
-value is monospace>*/
-ul{
-    font-family: monospace;
+/*navigation bar*/
+
+.navbar{
+    background: #00008B;
 }
 
-li{
-    list-style: circle;
+.nav-link,
+.navbar-brand{
+    color: #fff;
+    cursor: pointer;
 }
 
-#date {
-    font-size: 12px;
-    font-style: italic;
-    font-weight: bold;
+.nav-link{
+    margin-right: 1em !important;
+}
+
+.nav-link:hover{
+    color: #000;
+}
+
+.navbar-collapse{
+    justify-content: flex-end;
 }
