@@ -6,6 +6,11 @@
     <meta name="viewport" conten="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="main.css"> <!links main to this file>
 </head>
+
+<! a class selector preceded by “.”  ID selector preceded by “#” 
+ID can identify one element,class can identify more than one.>
+
+
 <body>
     <header class="page-header header container-fluid">
     <h1>DreamWaves Music Festival</h1>
@@ -17,6 +22,7 @@
         <a href="#about">About</a>
       </div>
     </header>
+
     <main>
         <div id = logo>
             <img src = "\Users\bonza\Desktop\slider.jpg">
@@ -24,34 +30,84 @@
                 This is a filler image
             </h5>
         </div>
-    <div id = "creators">
-    <h2 class = "title"> 
-        <b><u>Creators</u></b></h2> <br> 
-    <p> Breona Weiler <br>  
-        Skylar Kim <br>
-        Michelle Phan <br>
-        Someone else? <br>
-    </p>
-    </div>
-    <hr>
-    <div id = "artists">
-    <h3 class = "title"><b><u>Artists</u></b></h3> <br>
-    <p>    DJ Pauly D <br>
-        Drake <br>
-        Your momma <br>
-    </p>
-    </div>
-    <hr>
-    <div id = "pictures">
-    <h4 class = "title"><b><u>Pictures</u></b></h4>
-    <p>    
-        <img src = "https://media.tenor.com/images/6d6ca4f9717440e13665685b7c03f9ea/tenor.gif">
-    </p>    
-    </div>
+
+    <section class="container" id="section-1">
+        <div class="row">
+            <div class="welcome-title">
+                <h2><b><u>Welcome to DreamWaves</u></b></h2>
+            </div>
+            <div class="writing">
+                <p> DreamWaves is a student run music club at UCR, created in the spring of 2019. Our goal is to provide local, up and 
+                    coming artists with a platform to share their music and performances. </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="container" id="section-2">
+        <div class="row">
+            <div id="column1">
+                <div class="column-title">
+                    <h3><b><u>Artists</u></b></h3>
+                </div>
+            <p>    DJ Pauly D <br>
+                Drake <br>
+                Your momma <br>
+            </p>
+            <a href="https://www.geeksforgeeks.org" 
+                target="_blank" class="button"> 
+                Learn More 
+            </a>
+            </div>
+
+            <div id="column2">
+                <div class="column-title">
+                    <h3><b><u>Creators</u></b></h3>
+                </div>
+                <p> Breona Weiler <br>  
+                    Skylar Kim <br>
+                    Michelle Phan <br>
+                    Someone else? <br>
+                </p>
+            <a href="https://www.geeksforgeeks.org" 
+                target="_blank" class="button"> 
+                Learn More 
+            </a>
+            </div>
+
+            <div id="column3">
+                <div class="column-title">
+                    <h3><b><u>Pictures</u></b></h3>
+                </div>
+                <p>    
+                    <img src = "https://media.tenor.com/images/6d6ca4f9717440e13665685b7c03f9ea/tenor.gif">
+                </p>    
+            <a href="https://www.geeksforgeeks.org" 
+                target="_blank" class="button"> 
+                Learn More 
+            </a>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="container" id="section-3">
+        <div class="row">
+            <div id="sponsor-title">
+                <h4><b><u>Thank you to our sponsors!</u></b></h4>
+            </div>
+            <div class="sponsor-list">
+                <p>
+                    Monty's Good Burger <img src = "\Users\bonza\Desktop\MGB.png"><br>
+                    University of California Riverside <img src = "\Users\bonza\Desktop\UCR-Logo.jpg"> <br>
+                </p>
+            </div>
+        </div>
+    </section>
+
+
     </main>
+
     <script src="app.js"></script>
     <script src="jquery-3.4.1.min.js"></script>
-    <footer>
-    </footer>
 </body>
 </html>
