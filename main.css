@@ -7,12 +7,17 @@ h1{
     margin-bottom: 0px;
 }
 
-p{
+#section-2 p{
     font-size: 30px;
     margin-top:-20px;
     text-align: center;
 }
 
+#section-3 p{
+    font-size: 30px;
+    margin-top:-20px;
+    text-align: center;
+}
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: rgb(58, 153, 216);
@@ -122,11 +127,53 @@ p{
 }
 
 .sponsor-list img{
-    height: 170px;
+    height: 190px;
     width: 20%;
 }
 
 #sponsor-title{
     text-align: center;
     font-size: 50px
+}
+
+.company-details{
+    overflow: hidden;
+    padding: 3em 0em;
+    background: rgb(58, 153, 216);
+    text-align: center;
+    margin-top: 5em;
+}
+
+#footer #col1,
+#footer #col2,
+#footer #col3{
+    float: left;
+    width: 320px;
+    padding: 0px 40px 0px 40px;
+}
+
+#footer #icon{
+    display: block;
+    margin-bottom: 1em;
+    font-size: 3em;
+}
+
+
+.copyright p{
+    letter-spacing: 1px; 
+    font-size: 0.90em; 
+    color: rgba(255, 255, 255, 0.6); 
+}
+
+.copyright{
+    overflow: hidden;
+    padding: 3em 0em;
+    border-top: 20px solid rgba(255, 255, 255, 0.08);
+    text-align: center;
+    background: #0401af;
+}
+
+.copyright a{
+    text-decoration: none; 
+    color: rgba(255, 255, 255, 0.8);
 }
