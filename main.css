@@ -87,9 +87,9 @@ h1{
     text-align: center; 
     display: inline-block; 
     font-size: 20px; 
-    background-color: #5f12ee;  
+    background-color: #0401af;  
     color: white;  
-    border: 2px solid #5f12ee; 
+    border: 2px solid #0401af; 
     padding: 16px 32px; 
     margin: 4px 2px; 
     -webkit-transition-duration: 0.4s;
@@ -127,8 +127,8 @@ h1{
 }
 
 .sponsor-list img{
-    height: 190px;
-    width: 20%;
+    height: 185px;
+    width: 19%;
 }
 
 #sponsor-title{
@@ -176,4 +176,26 @@ h1{
 .copyright a{
     text-decoration: none; 
     color: rgba(255, 255, 255, 0.8);
+}
+
+ul.contact-us{
+    margin: 0;
+    padding: 2em 0em 0em 0em;
+    list-style: none;
+}
+
+ul.contact li{
+    display: inline-block;
+    padding: 0em 0.10em;
+    font-size: 1em;
+}
+
+ul.contact li a{
+    color: #FFF;
+    display: inline-block;
+    background: #4C93B9;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
 }
