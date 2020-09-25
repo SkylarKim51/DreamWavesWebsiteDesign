@@ -5,6 +5,7 @@ h1{
     color: #0401af;
     margin-top: -5px;
     margin-bottom: 0px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .topnav {
@@ -35,25 +36,56 @@ h1{
   }
 
 
+.members #breona,
+.members #skylar,
+.members #michelle{
+    float: left;
+    width: 320px;
+    padding: 20px 40px 0px 40px;
+  }
+
+.members img{
+    width: 72%;
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 4px;
+}
+
+.members h2{
+    text-align: center;
+    font-size: 25px;
+}
+
+ul.contact-info{
+    text-align: center;
+    list-style: none;
+    padding: 0em 0.10em;
+    font-size: 17px;
+}
+/*
 .company-details{
     overflow: hidden;
     padding: 3em 0em;
     background: rgb(58, 153, 216);
     text-align: center;
     margin-top: 5em;
+    opacity: .9;
 }
 
 #footer #col1,
 #footer #col2,
 #footer #col3{
-    float: left;
+    float: none;
     width: 320px;
     padding: 0px 40px 0px 40px;
 }
 
 #footer #icon{
     display: block;
-    margin-bottom: 1em;
+    margin-bottom: 0em;
     font-size: 3em;
 }
 
@@ -65,8 +97,7 @@ h1{
 
 .copyright{
     overflow: hidden;
-    padding: 3em 0em;
-    border-top: 20px solid rgba(255, 255, 255, 0.08);
+    padding: 1em 0em;
     text-align: center;
     background: #0401af;
 }
@@ -78,7 +109,7 @@ h1{
 
 ul.contact-us{
     margin: 0;
-    padding: 2em 0em 0em 0em;
+    padding: 1em 0em 0em 0em;
     list-style: none;
 }
 
@@ -96,4 +127,4 @@ ul.contact li a{
     height: 40px;
     line-height: 40px;
     text-align: center;
-}
+} */

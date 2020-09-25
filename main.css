@@ -5,19 +5,9 @@ h1{
     color: #0401af;
     margin-top: -5px;
     margin-bottom: 0px;
+    text-shadow: 2px 2px 5px #0401af;
 }
 
-#section-2 p{
-    font-size: 30px;
-    margin-top:-20px;
-    text-align: center;
-}
-
-#section-3 p{
-    font-size: 30px;
-    margin-top:-20px;
-    text-align: center;
-}
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: rgb(58, 153, 216);
@@ -63,6 +53,20 @@ h1{
     text-align: center;
 }
 
+#section-1{
+    text-align: center;
+}
+
+/*paragraph in section 1*/
+.writing p{
+    font-size: 32px;
+    margin: 1em 0em;
+    font-weight: 500;
+    padding: 0px 150px;
+    font-family: cursive;
+    text-indent: 2.0em;
+}
+
 #section-2{ 
     overflow: hidden; 
     margin-top: 5em; 
@@ -70,6 +74,19 @@ h1{
     border-top: 1px solid rgba(0, 0, 0, 0.2); 
     text-align: center; 
 }   
+
+#section-2 p{
+    font-size: 30px;
+    margin-top:-20px;
+    text-align: center;
+}
+
+#section-3 p{
+    font-size: 30px;
+    margin-top:-20px;
+    text-align: center;
+}
+
 .row #column1,  
 .row #column2, 
 .row #column3{ 
@@ -77,6 +94,7 @@ h1{
         width: 320px; 
         padding: 10px 40px 80px 40px; 
 } 
+
 .column-title h3{ 
     margin: 1em 0em; 
     font-size: 50px; 
@@ -101,18 +119,6 @@ h1{
     background-color: white; 
     color: #5f12ee; 
 } 
-
-#section-1{
-    text-align: center;
-}
-
-.writing p{
-    font-size: 35px;
-    margin: 1em 0em;
-    font-weight: 500;
-    padding: 0px 150px;
-    font-family: cursive;
-}
 
 .welcome-title h2{
     font-size: 50px;
@@ -142,6 +148,7 @@ h1{
     background: rgb(58, 153, 216);
     text-align: center;
     margin-top: 5em;
+    opacity: .9;
 }
 
 #footer #col1,
@@ -154,7 +161,7 @@ h1{
 
 #footer #icon{
     display: block;
-    margin-bottom: 1em;
+    margin-bottom: 0em;
     font-size: 3em;
 }
 
@@ -167,8 +174,7 @@ h1{
 
 .copyright{
     overflow: hidden;
-    padding: 3em 0em;
-    border-top: 20px solid rgba(255, 255, 255, 0.08);
+    padding: 1em 0em;
     text-align: center;
     background: #0401af;
 }
@@ -180,7 +186,7 @@ h1{
 
 ul.contact-us{
     margin: 0;
-    padding: 2em 0em 0em 0em;
+    padding: 1em 0em 0em 0em;
     list-style: none;
 }
 

@@ -5,6 +5,7 @@ h1{
     color: #0401af;
     margin-top: -5px;
     margin-bottom: 0px;
+    text-shadow: 2px 2px 5px #0401af;
 }
 
 .topnav {
@@ -35,12 +36,27 @@ h1{
   }
 
 
+.news-headline h2{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+
+.covid-announcement p{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+
 .company-details{
     overflow: hidden;
     padding: 3em 0em;
     background: rgb(58, 153, 216);
     text-align: center;
     margin-top: 5em;
+    opacity: .9;
 }
 
 #footer #col1,
@@ -53,7 +69,7 @@ h1{
 
 #footer #icon{
     display: block;
-    margin-bottom: 1em;
+    margin-bottom: 0em;
     font-size: 3em;
 }
 
@@ -65,8 +81,7 @@ h1{
 
 .copyright{
     overflow: hidden;
-    padding: 3em 0em;
-    border-top: 20px solid rgba(255, 255, 255, 0.08);
+    padding: 1em 0em;
     text-align: center;
     background: #0401af;
 }
@@ -78,7 +93,7 @@ h1{
 
 ul.contact-us{
     margin: 0;
-    padding: 2em 0em 0em 0em;
+    padding: 1em 0em 0em 0em;
     list-style: none;
 }
 
