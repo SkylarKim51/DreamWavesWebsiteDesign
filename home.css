@@ -36,6 +36,20 @@ h1{
     background-color: #0401af;
     color: #ffffff;
   }
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+ }
+
+.content {
+    padding: 16px;
+  }
+
+.sticky + .content {
+    padding-top: 60px;
+ }
   
 #logo img{
     width: 100%;
@@ -55,6 +69,7 @@ h1{
 
 #section-1{
     text-align: center;
+    /*background: url(\Users\bonza\Desktop\slider.jpg);*/
 }
 
 /*paragraph in section 1*/

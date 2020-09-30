@@ -35,6 +35,15 @@ h1{
     color: #ffffff;
   }
 
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+ }
+
+.sticky + .content {
+    padding-top: 60px;
+  }
 
 .news-headline h2{
     font-family: sans-serif;
