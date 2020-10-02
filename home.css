@@ -67,27 +67,37 @@ h1{
     text-align: center;
 }
 
+
 #section-1{
+    margin-top: -10px;
+    border-top: 10px solid rgb(0, 0, 0);
+    padding-top: 50px;
     text-align: center;
-    /*background: url(\Users\bonza\Desktop\slider.jpg);*/
+    /*background-image: url("https://ichef.bbci.co.uk/news/976/cpsprodpb/11E07/production/_111732237_gettyimages-1148471940.jpg");*/
+    background-image: linear-gradient(rgb(2, 204, 240), rgb(255, 255, 255));
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /*paragraph in section 1*/
 .writing p{
     font-size: 32px;
-    margin: 1em 0em;
+    /*margin: 1em 0em;*/
     font-weight: 500;
-    padding: 0px 150px;
+    /*padding: 0px 150px;*/
     font-family: cursive;
     text-indent: 2.0em;
 }
 
 #section-2{ 
     overflow: hidden; 
-    margin-top: 5em; 
-    padding-top: 1em; 
-    border-top: 1px solid rgba(0, 0, 0, 0.2); 
+    /*margin-top: 5em;*/ 
+    /*padding-top: 1em; */
+    /*border-top: 1px solid rgba(0, 0, 0, 0.2); */
     text-align: center; 
+    background-image: url("https://ichef.bbci.co.uk/news/976/cpsprodpb/11E07/production/_111732237_gettyimages-1148471940.jpg");
+    background-size: cover;
+    background-image: linear-gradient( rgb(255, 255, 255),rgb(2, 204, 240));
 }   
 
 #section-2 p{
